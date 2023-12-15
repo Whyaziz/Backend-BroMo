@@ -8,6 +8,9 @@
    ```
    php artisan migrate
    ```
+   ```
+   php artisan db:seed
+   ```
 4. run this project in port 8080
    ```
    php artisan serve --port=8080
