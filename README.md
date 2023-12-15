@@ -9,7 +9,11 @@
    php artisan migrate
    ```
    ```
-   php artisan db:seed
+   php artisan db:seed --class=UserSeeder
+   php artisan db:seed --class=KandangSeeder
+   php artisan db:seed --class=DataKandangSeeder
+   php artisan db:seed --class=AmoniakSensorSeeder
+   php artisan db:seed --class=SuhuKelembabanSensorsSeeder
    ```
 4. run this project in port 8080
    ```
